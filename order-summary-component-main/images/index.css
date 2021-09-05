@@ -1,0 +1,59 @@
+h1 {
+    
+}
+
+body {
+    background-image: url('/images/pattern-background-desktop.svg');
+}
+
+#card {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-end-start-radius: 0px;
+    background-color: white;   
+    border-radius: 10%;
+}
+
+#hero {
+    border-radius: 10%;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    background-color: blue;
+    border-radius: 20%;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-size: 24px;
+
+}
+
+#grey {
+    color: grey;
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+div{
+    display: flex;
+}
+
+#attribution {
+    display: flex;
+    align-items: center;
+}
+
+#cancel {
+    font-size: 24px;
+}
+g
